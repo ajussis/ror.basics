@@ -1,6 +1,0 @@
-
-
-# Deploing to Heroku with multiple apps
-
-heroku run rake --app heroku_app_name db:migrate
-
