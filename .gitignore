@@ -18,3 +18,5 @@ tmp*
 # OSX Stuff
 *.DS_Store
 
+# Ignore Spring files.
+/spring/*.pid
