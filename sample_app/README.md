@@ -12,8 +12,15 @@ git subtree push --prefix hello_app heroku_sample master
 
 ## Git branches 
 
+git checkout -b new_branch_name
+git checkout new_branch_name
 
+## Guard - automatic testing
 
+Installation: 
+
+- add gem guard gem to Gemfile
+- run: bundle exec guard init
 
 
 
