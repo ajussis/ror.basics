@@ -8,7 +8,7 @@ git remote add heroku_sample git@heroku.com:name_of_heroku_app
 
 If repo in a subfolder, Heroku requires the usage of --prefix for push
 
-git subtree push --prefix hello_app heroku_sample master
+git subtree push --prefix sample_app heroku_sample master
 
 ## Git branches 
 
@@ -22,6 +22,15 @@ Installation:
 - add gem guard gem to Gemfile
 - run: bundle exec guard init
 
+# Heroku
+
+## Heroku: check apps
+
+heroku apps
+
+## Heroku migration
+
+heroku run rake db:migrate --app name_of_heroku_app
 
 
 This is the sample application for the
